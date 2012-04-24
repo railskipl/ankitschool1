@@ -1,0 +1,6 @@
+img
+{-moz-transform: scale(0.8) rotate(35deg) translate(12px, 52px) skew(5deg, 6deg);
+-webkit-transform: scale(0.8) rotate(35deg) translate(12px, 52px) skew(5deg, 6deg);
+-o-transform: scale(0.8) rotate(35deg) translate(12px, 52px) skew(5deg, 6deg);
+-ms-transform: scale(0.8) rotate(35deg) translate(12px, 52px) skew(5deg, 6deg);
+transform: scale(0.8) rotate(35deg) translate(12px, 52px) skew(5deg, 6deg); }

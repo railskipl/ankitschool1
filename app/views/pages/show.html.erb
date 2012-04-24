@@ -1,0 +1,129 @@
+<style type="text/css">
+body{
+	background-color: gray;
+}
+a:hover{background:url('http://www.addglitter.com/link-sparkle.gif');}
+hr{background-image:url('http://www.addglitter.com/link-sparkle.gif'); }
+</style><br />
+
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+	  <tr>
+    <td colspan="2" align="left" valign="top"><table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="506" align="left" valign="top" height="40"><table width="506" border="0" cellspacing="0" cellpadding="0" >
+          <tr>
+            <td align="left" valign="top" style="padding-top:13px; padding-left:17px; padding-bottom:11px;"><%= link_to logo,root_path%></td>
+          </tr>
+          
+          <tr>
+            <td align="left" valign="top"><table width="506" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="180" align="left" valign="top"><%= image_tag "images2/index_08.gif", :size => "180x202" %></td>
+                <td width="326" align="left" valign="top"><%= image_tag "images2/index_09.gif", :size => "326x202" %></td>
+              </tr>
+            </table></td>
+            </tr>
+             </table></td>
+ <td width="274" align="left" valign="top" class = "cas">
+    <table width="116" border="0" align="center" cellpadding="0" cellspacing="0">             
+          <tr>
+            <td align="left" valign="top" class="menu"><%= link_to "Home", root_path %></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" class="menu"><a href="/pages/2">About us</a></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" class="menu"><a href="/pages/3">Academics</a></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" class="menu"><a href="/pages/6">Facilities</a></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" class="menu"><a href="/pages/10">Careers</a></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" class="menu"><%= link_to "Contacts",contacts_path %></td>
+          </tr>
+           <tr>
+            <td align="left" valign="top" class="menu"><a href="/pages/12">Others</a></td>
+          </tr>
+            </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top" style="padding-top:18px; padding-bottom:22px; padding-left:20px;"><table width="740" border="0" align="left" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="524" align="left" valign="top"><table width="96%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="left" valign="top" class="heading" style="padding-bottom:8px;"><%= @page.title %></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" class="text"><%= image_tag @page.photo.url, :size => "152x142" %><%= @page.body.html_safe %>
+<br>
+<a href="/content">learn more</a></td>
+          </tr>
+        </table></td>
+        <td width="216" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F1F1F3">
+          <tr>
+            <td width="5%" align="left" valign="top"><%= image_tag "images2/index_12.gif", :size => "12x12" %></td>
+            <td width="91%" align="left" valign="top">&nbsp;</td>
+            <td width="4%" align="right" valign="top"><%= image_tag "images2/index_14.gif", :size => "12x12" %></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">&nbsp;</td>
+            <td align="left" valign="top"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="right" valign="top" style="padding-top:16px; padding-bottom:22px;"><table width="95%" border="0" align="right" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="right" valign="top" style="border-bottom:1px solid #E13000; padding-bottom:4px;"><%= image_tag "images2/index_23.gif", :size => "150x23" %></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">&nbsp;</td>
+              </tr>
+            </table></td>
+            <td align="left" valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="left" valign="bottom"><%= image_tag "images2/index_62.gif", :size => "12x12" %></td>
+            <td align="left" valign="top" style="padding-bottom:52px;"><table width="96%" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="42%" align="left" valign="top"><%= image_tag "images2/index_30.gif", :size => "60x65" %></td>
+                <td width="58%" align="left" valign="top" class="righttext" style="padding-bottom:22px;"><span style="color:#096A9C;"><strong>Lorem ipsum</strong></span><br />
+                  Solor sit amet, consectetuer adipi lobortis.<br />
+<br />
+<a href="/content">learn more </a></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top"><%= image_tag "images2/index_49.gif", :size => "61x54" %></td>
+                <td align="left" valign="top" class="righttext" style="padding-bottom:16px;"><span style="color:#096A9C;"><strong>Lorem ipsum</strong></span><br />
+                  Solor sit amet, consectetuer adipi lobortis.<br />
+<br />
+<a href="/content">learn more</a></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top"><%= image_tag "images2/index_54.gif", :size => "56x71" %></td>
+                <td align="left" valign="top" class="righttext"><span style="color:#096A9C;"><strong>Lorem ipsum</strong></span><br />
+                  Solor sit amet, consectetuer adipi lobortis.<br />
+<br />
+<a href="content">learn more</a></td>
+              </tr>
+            </table></td>
+            <td align="right" valign="bottom"><%= image_tag "images2/index_63.gif", :size => "12x12" %></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="263" align="center" valign="top" bgcolor="#616C7C" class="copyright" style="border-right:1px solid #FFFFFF; padding-top:21px;">Copyright &copy; 2012 Kunal Infotech Pvt. Lmtd.<br /> 
+    All Rights Reserved.</td>
+    <td width="517" align="center" valign="top" bgcolor="#F1F1F3" style=" background-repeat:repeat-x; background-position:top; padding-top:26px; padding-bottom:17px;"><%= image_tag "images2/index_69.gif" %><pre class="footer"><a href="/pages/1">Home</a>   |   <a href="/content">About Our Center</a>   |   <a href="/content">Admissions</a>   |   <a href="/content">Academics</a>   |<br />   <a href="/content">News and Events</a>   |   <a href="/content">Athletics</a></pre></td>
+  </tr>
+</table>
+
+
+
+
